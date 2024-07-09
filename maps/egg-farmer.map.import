@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://dgrpmfexknbe0"
+path="res://.godot/imported/egg-farmer.map-6d3bccd176c6caa1ba91e86bc00d7fd3.tres"
+
+[deps]
+
+source_file="res://maps/egg-farmer.map"
+dest_files=["res://.godot/imported/egg-farmer.map-6d3bccd176c6caa1ba91e86bc00d7fd3.tres"]
+
+[params]
+

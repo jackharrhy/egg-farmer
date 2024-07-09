@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cxs67kgo763wa"]
+
+[ext_resource type="Texture2D" uid="uid://bmv22emgwaim2" path="res://assets/textures/dev/glass.png" id="1_cpnwd"]
+
+[resource]
+transparency = 1
+albedo_texture = ExtResource("1_cpnwd")
+metallic_specular = 0.0
+texture_filter = 2

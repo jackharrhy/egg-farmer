@@ -1,0 +1,100 @@
+[gd_scene load_steps=9 format=3 uid="uid://cbwme8va47fbl"]
+
+[ext_resource type="Script" path="res://entites/todo_list/todo_list.gd" id="1_8qfyo"]
+[ext_resource type="Texture2D" uid="uid://c5ibhejvs4q3n" path="res://entites/ui/todo.png" id="1_skhaf"]
+[ext_resource type="AudioStream" uid="uid://k65dqohnauyj" path="res://entites/ui/crunch-sounds/crunch.tres" id="3_gyujq"]
+
+[sub_resource type="Animation" id="Animation_o2tvt"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, -0.335, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_in4t0"]
+resource_name = "bob"
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(0.466516, 0.840896, 0.466516),
+"update": 0,
+"values": [Vector3(0, -0.335, 0), Vector3(0, -0.385, 0), Vector3(0, -0.335, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ky6h6"]
+resource_name = "hide"
+length = 0.25
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(0.31864, 0.098073),
+"update": 0,
+"values": [Vector3(0, -0.335, 0), Vector3(0, -1.335, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_3qc3o"]
+resource_name = "show"
+length = 0.25
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, -1.335, 0), Vector3(0, -0.335, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ewv0c"]
+_data = {
+"RESET": SubResource("Animation_o2tvt"),
+"bob": SubResource("Animation_in4t0"),
+"hide": SubResource("Animation_ky6h6"),
+"show": SubResource("Animation_3qc3o")
+}
+
+[node name="TodoList" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0804539, 0, -1)
+script = ExtResource("1_8qfyo")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(0.235, 0, 0, 0, 0.234857, 0.00820138, 0, -0.00820138, 0.234857, 0, -0.335, 0)
+texture = ExtResource("1_skhaf")
+
+[node name="Label3D" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(1, 0, 0, 0, 0.999998, 0.00181517, 0, -0.00181517, 0.999998, -0.290461, 1.4954, -0.0085206)
+modulate = Color(0, 0, 0, 1)
+text = "smash eggs"
+font_size = 72
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_ewv0c")
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_gyujq")

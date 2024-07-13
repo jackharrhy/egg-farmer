@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpops7swngtur"]
+
+[ext_resource type="Texture2D" uid="uid://b6htr083a4ih3" path="res://entites/egg/egg_yolk_albedo_1K.png" id="1_evs85"]
+[ext_resource type="Texture2D" uid="uid://delcq0lrljp1n" path="res://entites/egg/egg_yolk_normal_map_1K.png" id="2_20oyo"]
+
+[node name="EggSplat" type="Node3D"]
+transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0, 0)
+
+[node name="Decal" type="Decal" parent="."]
+texture_albedo = ExtResource("1_evs85")
+texture_normal = ExtResource("2_20oyo")
+emission_energy = 5.0
+
+[node name="Debug Torus" type="CSGTorus3D" parent="."]
+visible = false

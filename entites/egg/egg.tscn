@@ -1,7 +1,8 @@
-[gd_scene load_steps=12 format=3 uid="uid://vvxugvi0e71w"]
+[gd_scene load_steps=13 format=3 uid="uid://vvxugvi0e71w"]
 
 [ext_resource type="Script" path="res://entites/egg/egg.gd" id="1_okvmh"]
 [ext_resource type="Material" uid="uid://unep80ho565m" path="res://entites/egg/egg.tres" id="1_x61cc"]
+[ext_resource type="PackedScene" uid="uid://cpops7swngtur" path="res://entites/egg/egg_splat.tscn" id="2_q6ccf"]
 [ext_resource type="Texture2D" uid="uid://c2kfrx7cym8kb" path="res://entites/egg/cloud.png" id="3_a73fo"]
 [ext_resource type="AudioStream" uid="uid://drro0gu67l7ui" path="res://entites/egg/egg-splat.ogg" id="4_x5dop"]
 
@@ -68,6 +69,7 @@ mass = 0.04
 max_contacts_reported = 1
 contact_monitor = true
 script = ExtResource("1_okvmh")
+egg_splat_scene = ExtResource("2_q6ccf")
 
 [node name="Egg" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)

@@ -1,0 +1,49 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://ctv37je8egrl3"
+path="res://.godot/imported/cd.glb-9a61d332871487dcf64a2ac139cf7987.scn"
+
+[deps]
+
+source_file="res://entites/cd/cd.glb"
+dest_files=["res://.godot/imported/cd.glb-9a61d332871487dcf64a2ac139cf7987.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"DataSurface": {
+"use_external/enabled": true,
+"use_external/path": "res://entites/cd/surface.tres"
+},
+"Glass": {
+"use_external/enabled": true,
+"use_external/path": "res://entites/cd/glass.tres"
+},
+"Rim": {
+"use_external/enabled": true,
+"use_external/path": "res://entites/cd/trim.tres"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

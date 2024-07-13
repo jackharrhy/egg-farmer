@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://cbwme8va47fbl"]
+[gd_scene load_steps=11 format=3 uid="uid://cbwme8va47fbl"]
 
 [ext_resource type="Script" path="res://entites/todo_list/todo_list.gd" id="1_8qfyo"]
 [ext_resource type="Texture2D" uid="uid://c5ibhejvs4q3n" path="res://entites/ui/todo.png" id="1_skhaf"]
 [ext_resource type="AudioStream" uid="uid://k65dqohnauyj" path="res://entites/ui/crunch-sounds/crunch.tres" id="3_gyujq"]
+[ext_resource type="FontFile" uid="uid://b4hdc4rpcy2r3" path="res://entites/todo_list/Milkita.otf" id="3_wwpx1"]
 
 [sub_resource type="Animation" id="Animation_o2tvt"]
 length = 0.001
@@ -77,6 +78,9 @@ _data = {
 "show": SubResource("Animation_3qc3o")
 }
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_a3da2"]
+size = Vector3(1, 1.01471, 0.136307)
+
 [node name="TodoList" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0804539, 0, -1)
 script = ExtResource("1_8qfyo")
@@ -89,6 +93,7 @@ texture = ExtResource("1_skhaf")
 transform = Transform3D(1, 0, 0, 0, 0.999998, 0.00181517, 0, -0.00181517, 0.999998, -0.290461, 1.4954, -0.0085206)
 modulate = Color(0, 0, 0, 1)
 text = "smash eggs"
+font = ExtResource("3_wwpx1")
 font_size = 72
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
@@ -98,3 +103,11 @@ libraries = {
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_gyujq")
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.266022, -0.0069046)
+shape = SubResource("BoxShape3D_a3da2")
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

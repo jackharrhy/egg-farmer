@@ -11,11 +11,13 @@ extends CharacterBody3D
 @export var mouse_sensitivity_h = 0.15
 @export var mouse_sensitivity_v = 0.15
 
-@export var force_amount = 4
+@export var force_amount = 2
+@export var torque_amount = 2
 
 var able_to_hold = true
 var holding = false
-var held_object : RigidBody3D
+var held_object : RigidBody3D = null
+var held_object_initial_transform : Transform3D
 
 signal started_being_able_to_hold
 signal stopped_being_able_to_hold
@@ -64,41 +66,29 @@ func apply_hold_force():
 func _physics_process(delta):
 	if todo_list.holding:
 		if holding:
-			held_object = null
-			holding = false
-			stopped_holding.emit()
+			drop_held_object()
 		
 		if able_to_hold:
-			able_to_hold = false
-			stopped_being_able_to_hold.emit()
+			no_longer_can_hold()
 
 		return
 	
 	if holding:
-		var object = raycast.get_collider()
-		
-		if object:
-			apply_hold_force()
-			if Input.is_action_just_released("left_click"):
-				held_object = null
-				holding = false
-				stopped_holding.emit()
-			else:
-				held_object.global_transform.origin = hold_position.global_transform.origin
+		apply_hold_force()
+		if Input.is_action_just_released("left_click"):
+			drop_held_object()
 		else:
-			held_object = null
-			holding = false
-			stopped_holding.emit()
-
-			able_to_hold = false
-			stopped_being_able_to_hold.emit()
+			held_object.global_transform.origin = hold_position.global_transform.origin
 	else:
 		var object = raycast.get_collider()
 
 		if object:
 			if Input.is_action_just_pressed("left_click"):
 				held_object = object
+				held_object_initial_transform = Transform3D(object.transform)
 				apply_hold_force()
+				if "no_longer_holdable" in held_object:
+					held_object.no_longer_holdable.connect(drop_held_object)
 				holding = true
 				started_holding.emit()
 
@@ -107,5 +97,16 @@ func _physics_process(delta):
 				started_being_able_to_hold.emit()
 		else:
 			if able_to_hold:
-				able_to_hold = false
-				stopped_being_able_to_hold.emit()
+				no_longer_can_hold()
+
+func drop_held_object():
+	if "no_longer_holdable" in held_object:
+		held_object.no_longer_holdable.disconnect(drop_held_object)
+
+	held_object = null
+	holding = false
+	stopped_holding.emit()
+
+func no_longer_can_hold():
+	able_to_hold = false
+	stopped_being_able_to_hold.emit()

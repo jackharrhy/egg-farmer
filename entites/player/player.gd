@@ -11,7 +11,7 @@ extends CharacterBody3D
 @export var mouse_sensitivity_h = 0.15
 @export var mouse_sensitivity_v = 0.15
 
-@export var force_amount = 2
+@export var force_amount = 20
 @export var torque_amount = 2
 
 var able_to_hold = true
@@ -60,14 +60,20 @@ func _process(delta):
 
 func apply_hold_force():
 	var force_dir = hold_position.global_transform.origin - held_object.global_transform.origin
+	var distance = force_dir.length()
 	force_dir = force_dir.normalized()
-	held_object.apply_central_force(force_dir * force_amount)
+	
+	var max_distance = 1
+	var damping_factor = clamp(distance / max_distance, 0.0, 1.0)
+	
+	var vec = force_dir * force_amount * damping_factor
+	held_object.linear_velocity = vec
 
 func _physics_process(delta):
 	if todo_list.holding:
 		if holding:
 			drop_held_object()
-		
+
 		if able_to_hold:
 			no_longer_can_hold()
 
@@ -77,8 +83,6 @@ func _physics_process(delta):
 		apply_hold_force()
 		if Input.is_action_just_released("left_click"):
 			drop_held_object()
-		else:
-			held_object.global_transform.origin = hold_position.global_transform.origin
 	else:
 		var object = raycast.get_collider()
 

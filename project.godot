@@ -74,8 +74,9 @@ toggle_todo={
 
 [layer_names]
 
-3d_physics/layer_1="player"
+3d_physics/layer_1="world"
 3d_physics/layer_2="moveables"
+3d_physics/layer_3="player"
 
 [rendering]
 

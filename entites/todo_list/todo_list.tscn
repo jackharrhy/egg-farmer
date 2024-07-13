@@ -79,7 +79,7 @@ _data = {
 }
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_a3da2"]
-size = Vector3(1, 1.01471, 0.136307)
+size = Vector3(0.62616, 0.520454, 0.0580025)
 
 [node name="TodoList" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0804539, 0, -1)
@@ -107,7 +107,7 @@ stream = ExtResource("3_gyujq")
 [node name="Area3D" type="Area3D" parent="."]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.266022, -0.0069046)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0783997, -0.0810434, -0.00329399)
 shape = SubResource("BoxShape3D_a3da2")
 
 [connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

@@ -39,6 +39,8 @@ points = PackedVector3Array(-0.0571429, -0.514286, -0.614286, 0.876923, 0.2, -0.
 points = PackedVector3Array(-0.746583, -0.498137, -0.6, -0.771448, 0.228571, 0.0428572, -0.914269, 0.228571, 0.0428572, -0.914269, -0.514286, 0.0428572, -0.914269, 0.228571, -0.614286, -0.914269, -0.514286, -0.614286, -0.746153, -0.5, 0.0302198, -0.742857, 0.228571, -0.49998, -0.74945, 0.2, -0.589011, -0.742857, -0.371401, 0.0428572)
 
 [node name="CardboardIncubator" type="RigidBody3D"]
+collision_layer = 2
+collision_mask = 7
 
 [node name="carboard_incubator" parent="." instance=ExtResource("1_6b4ph")]
 

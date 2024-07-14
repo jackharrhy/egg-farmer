@@ -1,4 +1,4 @@
-[gd_scene load_steps=67 format=3 uid="uid://b1ib1v0vggcge"]
+[gd_scene load_steps=68 format=3 uid="uid://b1ib1v0vggcge"]
 
 [ext_resource type="PackedScene" uid="uid://bmgjeo8ln75xy" path="res://entites/player/player.tscn" id="1_2qhvc"]
 [ext_resource type="Script" path="res://addons/func_godot/src/map/func_godot_map.gd" id="1_djt55"]
@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://ctns0u8rb1k47" path="res://entites/cd/cd.tscn" id="14_v8pyr"]
 [ext_resource type="PackedScene" uid="uid://cyb1p0ju86v5k" path="res://entites/cd-player/cd-player.tscn" id="15_cln7h"]
 [ext_resource type="Texture2D" uid="uid://c1j4am2okiy4p" path="res://entites/posters/hes-about-to-play.jpg" id="15_lywvv"]
+[ext_resource type="PackedScene" uid="uid://d3x10aj73jxw4" path="res://entites/carboard_incubator/carboard_incubator.tscn" id="16_hf5mx"]
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_lvk13"]
 _surfaces = [{
@@ -500,3 +501,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.43014, 2.14697, 6.80529)
 
 [node name="CdPlayer" parent="." instance=ExtResource("15_cln7h")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 7.674, 1.858, 6)
+
+[node name="CardboardIncubator" parent="." instance=ExtResource("16_hf5mx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.194797, 1.26217, 12.7805)

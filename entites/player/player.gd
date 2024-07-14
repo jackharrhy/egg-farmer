@@ -51,7 +51,7 @@ func _process(delta):
 	var input_dir = Input.get_vector("move_left", "move_right", "move_forwards", "move_backwards")
 	var move_dir = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	character_mover.set_move_dir(move_dir)
-	
+
 	if not move_dir.is_zero_approx():
 		todo_list.bob()
 

@@ -14,7 +14,7 @@ var move_dir : Vector3
 func _ready():
 	character_body = get_parent()
 	move_drag = float(move_accel) / max_speed
-	
+
 func set_move_dir(new_move_dir: Vector3):
 	move_dir = new_move_dir
 
@@ -33,7 +33,7 @@ func _physics_process(delta):
 	
 	if move_dir.is_zero_approx():
 		drag = stop_drag
-	
+
 	var flat_velo = character_body.velocity
 	flat_velo.y = 0.0
 	character_body.velocity += move_accel * move_dir - flat_velo * drag

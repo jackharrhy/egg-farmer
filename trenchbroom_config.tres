@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="TrenchBroomGameConfig" load_steps=6 format=3 uid="uid://b4cww8xdlcps8"]
+[gd_resource type="Resource" script_class="TrenchBroomGameConfig" load_steps=7 format=3 uid="uid://b4cww8xdlcps8"]
 
 [ext_resource type="Resource" uid="uid://b4xhdj0e16lop" path="res://addons/func_godot/game_config/trenchbroom/tb_face_tag_clip.tres" id="1_cr3q7"]
+[ext_resource type="Resource" uid="uid://co2sb1ng7cw4i" path="res://addons/func_godot/game_config/trenchbroom/tb_brush_tag_trigger.tres" id="1_iu3i2"]
 [ext_resource type="Resource" uid="uid://ca7377sfgj074" path="res://addons/func_godot/game_config/trenchbroom/tb_face_tag_skip.tres" id="2_v32i2"]
 [ext_resource type="Resource" uid="uid://lyefhcijxrrl" path="res://egg_farmer_fgd.tres" id="3_60ld6"]
 [ext_resource type="Texture2D" uid="uid://decwujsyhj0qy" path="res://addons/func_godot/icon32.png" id="4_jrw8v"]
@@ -27,5 +28,5 @@ texture_exclusion_patterns = Array[String](["*_albedo", "*_ao", "*_emission", "*
 fgd_file = ExtResource("3_60ld6")
 entity_scale = "32"
 default_uv_scale = Vector2(1, 1)
-brush_tags = Array[Resource]([])
+brush_tags = Array[Resource]([ExtResource("1_iu3i2")])
 brushface_tags = Array[Resource]([ExtResource("1_cr3q7"), ExtResource("2_v32i2")])

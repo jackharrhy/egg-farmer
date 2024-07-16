@@ -18,7 +18,7 @@ sky_material = SubResource("ProceduralSkyMaterial_xlv2f")
 background_mode = 2
 sky = SubResource("Sky_g2032")
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" groups=["player"]]
 collision_layer = 4
 collision_mask = 3
 script = ExtResource("1_t6lsy")

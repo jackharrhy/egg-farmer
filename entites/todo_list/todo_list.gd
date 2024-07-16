@@ -46,7 +46,6 @@ func _process(delta):
 		else:
 			show_todo()
 
-
 func _on_area_3d_body_entered(body):
 	if holding:
 		hide_todo()

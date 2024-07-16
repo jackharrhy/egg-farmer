@@ -457,80 +457,105 @@
 // entity 1
 {
 "classname" "egg"
-"origin" "504 120 42"
+"origin" "840 120 26"
 }
 // entity 2
 {
 "classname" "egg"
-"origin" "504 144 42"
+"origin" "840 144 26"
 }
 // entity 3
 {
 "classname" "egg"
-"origin" "504 200 42"
+"origin" "840 200 26"
 }
 // entity 4
 {
 "classname" "egg"
-"origin" "504 176 42"
+"origin" "840 176 26"
 }
 // entity 5
 {
 "classname" "egg"
-"origin" "504 200 74"
+"origin" "808 200 26"
 }
 // entity 6
 {
 "classname" "egg"
-"origin" "504 176 74"
+"origin" "808 176 26"
 }
 // entity 7
 {
 "classname" "egg"
-"origin" "504 144 74"
+"origin" "808 144 26"
 }
 // entity 8
 {
 "classname" "egg"
-"origin" "504 120 74"
+"origin" "808 120 26"
 }
 // entity 9
 {
 "classname" "egg"
-"origin" "504 -144 42"
+"origin" "840 -144 26"
 }
 // entity 10
 {
 "classname" "egg"
-"origin" "504 -120 42"
+"origin" "840 -120 26"
 }
 // entity 11
 {
 "classname" "egg"
-"origin" "504 -120 74"
+"origin" "808 -120 26"
 }
 // entity 12
 {
 "classname" "egg"
-"origin" "504 -144 74"
+"origin" "808 -144 26"
 }
 // entity 13
 {
 "classname" "egg"
-"origin" "504 -176 74"
+"origin" "808 -176 26"
 }
 // entity 14
 {
 "classname" "egg"
-"origin" "504 -176 42"
+"origin" "840 -176 26"
 }
 // entity 15
 {
 "classname" "egg"
-"origin" "504 -200 42"
+"origin" "840 -200 26"
 }
 // entity 16
 {
 "classname" "egg"
-"origin" "504 -200 74"
+"origin" "808 -200 26"
+}
+// entity 17
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Triggers"
+"_tb_id" "1"
+"_tb_layer_sort_index" "0"
+}
+// entity 18
+{
+"classname" "trigger_area"
+"type" "sound"
+"sound_file" "hen"
+"once" "true"
+"_tb_layer" "1"
+// brush 0
+{
+( 544 96 128 ) ( 544 -96 128 ) ( 544 -96 0 ) special/trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 -96 128 ) ( 608 -96 128 ) ( 608 -96 0 ) special/trigger [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 608 -96 0 ) ( 608 96 0 ) ( 544 96 0 ) special/trigger [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 544 96 128 ) ( 608 96 128 ) ( 608 -96 128 ) special/trigger [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 608 96 0 ) ( 608 96 128 ) ( 544 96 128 ) special/trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 608 -96 128 ) ( 608 96 128 ) ( 608 96 0 ) special/trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
 }

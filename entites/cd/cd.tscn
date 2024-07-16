@@ -82,8 +82,8 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_b8k0n")
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_dad11"]
-height = 0.062445
-radius = 0.323933
+height = 0.068516
+radius = 0.316561
 
 [node name="CD" type="RigidBody3D"]
 collision_layer = 2

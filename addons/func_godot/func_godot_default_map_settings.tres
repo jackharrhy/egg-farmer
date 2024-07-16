@@ -8,7 +8,7 @@
 script = ExtResource("1_dlf23")
 inverse_scale_factor = 32.0
 entity_fgd = ExtResource("2_l7on0")
-entity_name_property = ""
+entity_name_property = "globalname"
 base_texture_dir = "res://assets/textures"
 texture_file_extensions = Array[String](["png", "jpg", "jpeg", "bmp", "tga", "webp"])
 clip_texture = "special/clip"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="FuncGodotFGDPointClass" load_steps=3 format=3 uid="uid://bp6uimc8lmkiu"]
+
+[ext_resource type="Script" path="res://addons/func_godot/src/fgd/func_godot_fgd_point_class.gd" id="1_4ff5b"]
+[ext_resource type="PackedScene" uid="uid://s1ru3d5a2i53" path="res://entites/tree/Tree.tscn" id="1_18xcl"]
+
+[resource]
+script = ExtResource("1_4ff5b")
+scene_file = ExtResource("1_18xcl")
+apply_rotation_on_map_build = true
+classname = "tree"
+description = ""
+func_godot_internal = false
+base_classes = Array[Resource]([])
+class_properties = {}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.305882, 0.411765, 0, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_class = ""
+name_property = ""

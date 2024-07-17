@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="FuncGodotFGDFile" load_steps=6 format=3 uid="uid://lyefhcijxrrl"]
+[gd_resource type="Resource" script_class="FuncGodotFGDFile" load_steps=7 format=3 uid="uid://lyefhcijxrrl"]
 
 [ext_resource type="Resource" uid="uid://crgpdahjaj" path="res://addons/func_godot/fgd/func_godot_fgd.tres" id="1_i8sle"]
 [ext_resource type="Script" path="res://addons/func_godot/src/fgd/func_godot_fgd_file.gd" id="2_86vb6"]
 [ext_resource type="Resource" uid="uid://coykin77w0fe" path="res://tb/fgd/point/egg.tres" id="2_ukwve"]
 [ext_resource type="Resource" uid="uid://db4nobwbq5jhp" path="res://tb/solid/trigger_area.tres" id="3_kjet8"]
 [ext_resource type="Resource" uid="uid://60bjc7itx83m" path="res://tb/fgd/point/sound.tres" id="4_xupm6"]
+[ext_resource type="Resource" uid="uid://bp6uimc8lmkiu" path="res://tb/fgd/point/tree.tres" id="5_ldepy"]
 
 [resource]
 script = ExtResource("2_86vb6")
@@ -12,4 +13,4 @@ export_file = false
 target_map_editor = 1
 fgd_name = "EggFarmer"
 base_fgd_files = Array[Resource]([ExtResource("1_i8sle")])
-entity_definitions = Array[Resource]([ExtResource("2_ukwve"), ExtResource("3_kjet8"), ExtResource("4_xupm6")])
+entity_definitions = Array[Resource]([ExtResource("2_ukwve"), ExtResource("3_kjet8"), ExtResource("4_xupm6"), ExtResource("5_ldepy")])

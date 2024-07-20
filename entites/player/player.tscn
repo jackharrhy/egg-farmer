@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://bmgjeo8ln75xy"]
+[gd_scene load_steps=11 format=3 uid="uid://bmgjeo8ln75xy"]
 
 [ext_resource type="Script" path="res://entites/player/player.gd" id="1_t6lsy"]
 [ext_resource type="PackedScene" uid="uid://cfxm13homo3o1" path="res://entites/utility/character_mover.tscn" id="1_x5lu5"]
 [ext_resource type="PackedScene" uid="uid://ceeogrhiewpj7" path="res://entites/ui/hud.tscn" id="3_lmym4"]
 [ext_resource type="PackedScene" uid="uid://cbwme8va47fbl" path="res://entites/todo_list/todo_list.tscn" id="3_nmb7d"]
+[ext_resource type="AudioStream" uid="uid://hrnl0xkhdwee" path="res://assets/music/andrew-egg-beat.ogg" id="5_6db0w"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ul2cx"]
 
@@ -50,6 +51,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.5)
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Hud" parent="CanvasLayer" instance=ExtResource("3_lmym4")]
+
+[node name="GameMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_6db0w")
+volume_db = -10.0
+autoplay = true
 
 [connection signal="started_being_able_to_hold" from="." to="CanvasLayer/Hud" method="show_open_hand"]
 [connection signal="started_holding" from="." to="CanvasLayer/Hud" method="show_closed_hand"]

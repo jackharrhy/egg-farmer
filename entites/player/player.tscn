@@ -55,7 +55,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.5)
 [node name="GameMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_6db0w")
 volume_db = -10.0
-autoplay = true
 
 [connection signal="started_being_able_to_hold" from="." to="CanvasLayer/Hud" method="show_open_hand"]
 [connection signal="started_holding" from="." to="CanvasLayer/Hud" method="show_closed_hand"]

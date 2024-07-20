@@ -39,13 +39,13 @@ func hide_todo():
 	animation_player.play("hide")
 	audio_stream_player.play()
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("toggle_todo"):		
 		if holding:
 			hide_todo()
 		else:
 			show_todo()
 
-func _on_area_3d_body_entered(body):
+func _on_area_3d_body_entered(_body):
 	if holding:
 		hide_todo()

@@ -20,9 +20,8 @@ class_properties = {}
 class_property_descriptions = {}
 meta_properties = {
 "color": Color(0.8, 0.8, 0.8, 1),
-"model": "\"C:\\Users\\Jack\\repos\\egg-farmer\\models/egg.glb\"",
-"size": AABB(-8, -8, -8, 8, 8, 8),
-"studio": "\"C:\\Users\\Jack\\repos\\egg-farmer\\models/egg.glb\""
+"model": "\"models/egg.glb\"",
+"size": AABB(-8, -8, -8, 8, 8, 8)
 }
 node_class = ""
 name_property = ""

@@ -34,10 +34,10 @@ func create_splat(pos, rot):
 
 func _on_body_entered(body):
 	if break_velocity <= linear_velocity.length() or ("linear_velocity" in body and break_velocity <= body.linear_velocity.length()):
-		var collision_shape = get_world_3d().direct_space_state
+		# var collision_shape = get_world_3d().direct_space_state
 		
 		var egg_state = PhysicsServer3D.body_get_direct_state(self)
-		var body_state = PhysicsServer3D.body_get_direct_state(body.get_rid())
+		# var body_state = PhysicsServer3D.body_get_direct_state(body.get_rid())
 		
 		var pos = egg_state.get_contact_collider_position(0)
 		var rot = egg_state.get_contact_local_normal(0)

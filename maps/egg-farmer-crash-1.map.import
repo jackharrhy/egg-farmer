@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://i4xjljh20r2k"
+path="res://.godot/imported/egg-farmer-crash-1.map-89758d9476d1d8d68a9ba304cb728704.tres"
+
+[deps]
+
+source_file="res://maps/egg-farmer-crash-1.map"
+dest_files=["res://.godot/imported/egg-farmer-crash-1.map-89758d9476d1d8d68a9ba304cb728704.tres"]
+
+[params]
+

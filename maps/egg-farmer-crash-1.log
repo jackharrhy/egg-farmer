@@ -1,0 +1,275 @@
+Renderer info: NVIDIA GeForce GTX 1070/PCIe/SSE2 version 4.6.0 NVIDIA 536.67 from NVIDIA Corporation
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path "C:/Users/Jack/repos/scratch/idtech-muck/TrenchBroom-Win64-v2024.1-Release\\defaults\\assets"
+Adding file system path "C:\\Users\\Jack\\repos\\egg-farmer\\."
+Loading document from C:\Users\Jack\repos\egg-farmer\maps\egg-farmer.map
+Adding file system path "C:/Users/Jack/repos/scratch/idtech-muck/TrenchBroom-Win64-v2024.1-Release\\defaults\\assets"
+Adding file system path "C:\\Users\\Jack\\repos\\egg-farmer\\."
+Adding file system path "C:\\Users\\Jack\\repos\\egg-farmer\\assets"
+Found multiple model properties (line 20, column 109)
+Renderer info: NVIDIA GeForce GTX 1070/PCIe/SSE2 version 4.6.0 NVIDIA 536.67 from NVIDIA Corporation
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path "C:/Users/Jack/repos/scratch/idtech-muck/TrenchBroom-Win64-v2024.1-Release\\defaults\\assets"
+Adding file system path "C:\\Users\\Jack\\repos\\egg-farmer\\."
+Loading document from C:\Users\Jack\repos\egg-farmer\maps\egg-farmer.map
+Adding file system path "C:/Users/Jack/repos/scratch/idtech-muck/TrenchBroom-Win64-v2024.1-Release\\defaults\\assets"
+Adding file system path "C:\\Users\\Jack\\repos\\egg-farmer\\."
+Adding file system path "C:\\Users\\Jack\\repos\\egg-farmer\\assets"
+Found multiple model properties (line 20, column 109)
+Loaded entity definition file EggFarmer.fgd
+Could not load model C:\Users\Jack\repos\egg-farmer\models/egg.glb: Path 'C:\Users\Jack\repos\egg-farmer\models/egg.glb' is absolute
+Loaded texture collection '"textures"'
+Loaded texture collection '"textures\\dev"'
+Loaded texture collection '"textures\\main\\grass"'
+Loaded texture collection '"textures\\main\\roofing_tiles"'
+Loaded texture collection '"textures\\main\\siding"'
+Loaded texture collection '"textures\\main\\stone"'
+Loaded texture collection '"textures\\main\\wood_planks"'
+Loaded texture collection '"textures\\special"'
+Loaded "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 349ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.6.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 14ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 14ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 14ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 14ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 13ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 19ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.7.map"
+Parsed successfully as Valve entities (unknown position)
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.8.map"
+Parsed successfully as Valve entities (unknown position)
+Could not hollow brush: Error{msg: Brush is empty}
+Could not hollow brush: Error{msg: Brush is empty}
+Parsed successfully as Valve entities (unknown position)
+Parsed successfully as Valve entities (unknown position)
+Failed to snap vertices of 1 brush
+Failed to snap vertices of 1 brush
+Failed to snap vertices of 1 brush
+Failed to snap vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 7 brushes
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.9.map"
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 14ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.10.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 11ms
+Could not extrude inwards: Front brush is empty
+Could not extrude inwards: Front brush is empty
+Could not extrude inwards: Front brush is empty
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.11.map"
+Parsed successfully as Valve entities (unknown position)
+Snapped vertices of 1 brush
+Parsed successfully as Valve entities (unknown position)
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 14ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 14ms
+Parsed successfully as Valve entities (unknown position)
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.4.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Reloading entity definitions
+Found multiple model properties (line 20, column 109)
+Loaded entity definition file EggFarmer.fgd
+Could not load model C:\Users\Jack\repos\egg-farmer\models/egg.glb: Path 'C:\Users\Jack\repos\egg-farmer\models/egg.glb' is absolute
+Reloading entity definitions
+Found multiple model properties (line 20, column 109)
+Loaded entity definition file EggFarmer.fgd
+Could not load model C:\Users\Jack\repos\egg-farmer\models/egg.glb: Path 'C:\Users\Jack\repos\egg-farmer\models/egg.glb' is absolute
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Parsed successfully as Valve entities (unknown position)
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.5.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Reloading texture collections
+Loaded texture collection '"textures"'
+Loaded texture collection '"textures\\dev"'
+Loaded texture collection '"textures\\main\\grass"'
+Loaded texture collection '"textures\\main\\gravel"'
+Loaded texture collection '"textures\\main\\roofing_tiles"'
+Loaded texture collection '"textures\\main\\siding"'
+Loaded texture collection '"textures\\main\\stone"'
+Loaded texture collection '"textures\\main\\wood_planks"'
+Loaded texture collection '"textures\\special"'
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.6.map"
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.7.map"
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 11ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 17ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.8.map"
+Could not extrude inwards: Front brush is empty
+Could not extrude inwards: Front brush is empty
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 17ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 17ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 17ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 17ms
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.9.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 18ms
+Could not resize brush: Brush has invalid face
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.10.map"
+Snapped vertices of 3 brushes
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Reloading entity definitions
+Found multiple model properties (line 20, column 109)
+Loaded entity definition file EggFarmer.fgd
+Could not load model C:\Users\Jack\repos\egg-farmer\models/egg.glb: Path 'C:\Users\Jack\repos\egg-farmer\models/egg.glb' is absolute
+Reloading entity definitions
+Found multiple model properties (line 20, column 109)
+Loaded entity definition file EggFarmer.fgd
+Could not load model C:\Users\Jack\repos\egg-farmer\models/egg.glb: Path 'C:\Users\Jack\repos\egg-farmer\models/egg.glb' is absolute
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Parsed successfully as Valve entities (unknown position)
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Parsed successfully as Valve entities (unknown position)
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.11.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.4.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 22ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.5.map"
+Parsed successfully as Valve entities (unknown position)
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Snapped vertices of 7 brushes
+Parsed successfully as Valve entities (unknown position)
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.6.map"
+Snapped vertices of 1 brush
+Snapped vertices of 7 brushes
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Parsed successfully as Valve entities (unknown position)
+Could not resize brush: Brush has invalid face
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 17ms
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.7.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 20ms
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Snapped vertices of 1 brush
+Snapped vertices of 1 brush
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 21ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 14ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 15ms
+Created autosave backup at "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\autosave\\egg-farmer.8.map"
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Saved "C:\\Users\\Jack\\repos\\egg-farmer\\maps\\egg-farmer.map" in 16ms
+Reloading entity definitions
+Found multiple model properties (line 20, column 109)

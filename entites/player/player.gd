@@ -33,7 +33,7 @@ func _input(event):
 		camera_3d.rotation_degrees.x -= event.relative.y * mouse_sensitivity_v
 		camera_3d.rotation_degrees.x = clamp(camera_3d.rotation_degrees.x, -90, 90)
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("quit"):
 		get_tree().quit()
 	
@@ -69,7 +69,7 @@ func apply_hold_force():
 	var vec = force_dir * force_amount * damping_factor
 	held_object.linear_velocity = vec
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	if todo_list.holding:
 		if holding:
 			drop_held_object()

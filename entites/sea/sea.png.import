@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4yn1hx63s0j5"
-path.s3tc="res://.godot/imported/orange_texture_05.png-d6664cbdb8e2f9474dc98b29fbc22ebc.s3tc.ctex"
+uid="uid://cwldsjc4o77j5"
+path.s3tc="res://.godot/imported/sea.png-7cb2b0333c87e20749a0cdbf1b3b836d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/textures/dev/orange_texture_05.png"
-dest_files=["res://.godot/imported/orange_texture_05.png-d6664cbdb8e2f9474dc98b29fbc22ebc.s3tc.ctex"]
+source_file="res://entites/sea/sea.png"
+dest_files=["res://.godot/imported/sea.png-7cb2b0333c87e20749a0cdbf1b3b836d.s3tc.ctex"]
 
 [params]
 

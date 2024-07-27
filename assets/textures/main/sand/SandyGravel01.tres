@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d3c0te8gubu02"]
+
+[ext_resource type="Texture2D" uid="uid://c0i35adlw3jnf" path="res://assets/textures/main/sand/SandyGravel01.png" id="1_bu35i"]
+
+[resource]
+albedo_texture = ExtResource("1_bu35i")
+metallic_specular = 0.0
+texture_filter = 2
